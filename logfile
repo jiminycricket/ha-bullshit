@@ -1,0 +1,44 @@
+2019-07-10 23:26:05.755 CST [66795] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-07-10 23:26:05.755 CST [66795] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-07-10 23:26:05.767 CST [66796] LOG:  database system was shut down at 2019-07-10 23:25:59 CST
+2019-07-10 23:26:05.771 CST [66795] LOG:  database system is ready to accept connections
+2019-07-10 23:26:09.036 CST [66812] FATAL:  database "jimmy" does not exist
+2019-07-10 23:29:53.150 CST [66867] FATAL:  role "postgres" does not exist
+2019-07-10 23:31:19.475 CST [66955] FATAL:  role "postgres" does not exist
+2019-07-10 23:31:58.710 CST [66970] FATAL:  database "jimmy" does not exist
+2019-07-10 23:32:05.511 CST [66976] FATAL:  role "postgres" does not exist
+2019-07-10 23:32:14.122 CST [66982] FATAL:  database "jimmy" does not exist
+2019-07-10 23:38:05.945 CST [66801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2019-07-10 23:38:06.625 CST [66801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2019-07-10 23:38:06.625 CST [66801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2019-07-10 23:38:07.308 CST [66801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2019-07-10 23:38:07.308 CST [66801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2019-07-10 23:38:07.991 CST [66801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2019-07-10 23:38:07.991 CST [66801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2019-07-10 23:38:08.673 CST [66801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2019-07-10 23:38:08.673 CST [66801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2019-07-10 23:38:09.365 CST [66801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2019-07-10 23:38:09.365 CST [66801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2019-07-10 23:38:10.049 CST [66801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2019-07-10 23:38:10.049 CST [66801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2019-07-10 23:38:10.732 CST [66801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2019-07-10 23:38:10.732 CST [66801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2019-07-10 23:38:11.415 CST [66801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2019-07-10 23:38:11.415 CST [66801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2019-07-10 23:38:12.097 CST [66801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2019-07-10 23:38:12.097 CST [66801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2019-07-10 23:38:12.780 CST [66801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2019-07-10 23:38:12.780 CST [66801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2019-07-10 23:38:13.461 CST [66801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2019-07-10 23:38:13.461 CST [66801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2019-07-10 23:38:14.145 CST [66801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2019-07-10 23:38:14.145 CST [66801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2019-07-10 23:38:14.156 CST [66795] LOG:  could not open file "postmaster.pid": No such file or directory
+2019-07-10 23:38:14.156 CST [66795] LOG:  performing immediate shutdown because data directory lock file is invalid
+2019-07-10 23:38:14.156 CST [66795] LOG:  received immediate shutdown request
+2019-07-10 23:38:14.156 CST [66795] LOG:  could not open file "postmaster.pid": No such file or directory
+2019-07-10 23:38:14.157 CST [66801] LOG:  could not open temporary statistics file "pg_stat/global.tmp": No such file or directory
+2019-07-10 23:38:14.158 CST [66800] WARNING:  terminating connection because of crash of another server process
+2019-07-10 23:38:14.158 CST [66800] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2019-07-10 23:38:14.158 CST [66800] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2019-07-10 23:38:14.161 CST [66795] LOG:  database system is shut down
