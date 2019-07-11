@@ -1,0 +1,18 @@
+<div class="container">
+  <h1>Hahow Bullshits</h1>
+  <hr>
+  <ul>
+    <% @bullshits.each do |b| %>
+      <li class="d-flex justify-content-between mb-2">
+        <p>
+          <%= b.content %>
+        </p>
+        <div>
+          <%= link_to "編輯", :edit_bullshits, :class => "btn btn-primary" %>  
+        </div>
+      </li>
+    <% end %>
+  </ul>
+  <hr>
+  <%= link_to 'NEW SHIT', :new_bullshits, :class => "btn btn-primary" %>
+</div>

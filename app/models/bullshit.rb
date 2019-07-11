@@ -1,0 +1,2 @@
+class Bullshit < ApplicationRecord
+end
