@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-	resource :bullshits
+	resources :bullshits
+	root "bullshits#welcome"
 end

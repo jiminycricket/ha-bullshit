@@ -1,5 +1,5 @@
 <% if flash.any? %>
-  <div class="flashes">
+  <div class="flashes alert alert-info" role="alert">
     <% user_facing_flashes.each do |key, value| -%>
       <div class="flash-<%= key %>"><%= value %></div>
     <% end -%>

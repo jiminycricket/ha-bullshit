@@ -1,0 +1,20 @@
+<div class="container">
+  <h1>Ha Bullshits</h1>
+  <hr>
+  <ul>
+    <% @bullshits.each do |b| %>
+      <li class="d-flex justify-content-between mb-2">
+        <p>
+          <%= b.content %>
+        </p>
+        <div>
+          <%= link_to "顯示", bullshit_path(b.id), :class => "btn btn-primary" %>
+          <%= link_to "編輯", edit_bullshit_path(b.id), :class => "btn btn-primary" %>
+          <%= link_to "刪除", bullshit_path(b.id), method: :delete, data: {confirm: '確定嗎?'}, :class => "btn btn-primary" %>
+        </div>
+      </li>
+    <% end %>
+  </ul>
+  <hr>
+  <%= link_to 'NEW SHIT', new_bullshit_path, :class => "btn btn-primary" %>
+</div>
